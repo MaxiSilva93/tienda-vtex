@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "rich-text#bienvenida",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
@@ -13,6 +14,12 @@
       "rich-text#link",
       "newsletter"
     ]
+  },
+
+  "rich-text#bienvenida": {
+    "props": {
+      "text": "**Bienvenido a la pagina de Maximiliano Silva**"
+    }
   },
 
   "list-context.image-list#demo": {

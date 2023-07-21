@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "store-theme",
-  "version": "5.1.0",
+  "vendor": "tiendatest3",
+  "name": "mi-tienda-completa",
+  "version": "5.1.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
