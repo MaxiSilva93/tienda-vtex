@@ -3,7 +3,7 @@
     "blocks": [
       "list-context.image-list#demo",
       "rich-text#bienvenida",
-      "rich-text#bienvenida",
+      "rich-text#bienvenida2",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
@@ -15,6 +15,15 @@
       "rich-text#link",
       "newsletter"
     ]
+  },
+
+  "rich-text#bienvenida2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Nuevo texto**",
+      "blockClass": "help-message"
+    }
   },
 
   "rich-text#bienvenida": {

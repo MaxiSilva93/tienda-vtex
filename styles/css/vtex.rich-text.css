@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+.strong--help-message {
+
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: red;
+
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
 }
